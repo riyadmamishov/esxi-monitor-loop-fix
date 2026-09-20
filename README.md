@@ -39,6 +39,7 @@ In ESXi Host Client go to `Storage -> Datastores`. If `Free` is `0.00 B` and `Us
 - Check `Storage -> Datastores` - Free space should now show (e.g., 320GB free)
 - Go to `Virtual Machines -> WinServ22 -> Power On`
 - VM will boot normally, Monitor Loop error gone.
+  ![Add disk](power.png)
 
 ## Why This Happens?
 ESXi needs free space for VM swap files (.vswp) and snapshots. When no space left, Monitor Loop protection fails the power-on to prevent corruption.
