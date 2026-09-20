@@ -26,7 +26,7 @@ In ESXi Host Client go to `Storage -> Datastores`. If `Free` is `0.00 B` and `Us
 **2. Add New Storage to Host**
 - Insert new HDD / SSD to server
 - Go to `Storage -> Storage Devices -> Rescan`
-
+![Add disk](Addisk.png)
 **3. Extend Datastore with Increase Capacity**
 - Go to `Storage -> Datastores`
 - Select your full datastore (`datastore2`)
